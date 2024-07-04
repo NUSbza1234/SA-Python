@@ -3,6 +3,12 @@ import yfinance as yf
 import pandas as pd
 import plotly.graph_objs as go
 import pandas_ta as ta
+import numpy as np
+
+#nan_value = np.nan
+
+#import numpy as np
+#npNaN = np.nan
 
 # Utility function
 def load_data(stock, period):
