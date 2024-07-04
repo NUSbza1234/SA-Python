@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from .sma import sma
-from pandas_ta.utils import get_offset, verify_series
+from custom_pandas_ta.utils import get_offset, verify_series
 
 
 def vwma(close, volume, length=None, offset=None, **kwargs):

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from pandas_ta import Imports
-from pandas_ta.utils import get_offset, non_zero_range, verify_series
+from custom_pandas_ta import Imports
+from custom_pandas_ta.utils import get_offset, non_zero_range, verify_series
 
 
 def ad(high, low, close, volume, open_=None, talib=None, offset=None, **kwargs):

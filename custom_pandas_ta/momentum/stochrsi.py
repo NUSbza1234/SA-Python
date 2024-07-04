@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from pandas import DataFrame
 from .rsi import rsi
-from pandas_ta.overlap import ma
-from pandas_ta.utils import get_offset, non_zero_range, verify_series
+from custom_pandas_ta.overlap import ma
+from custom_pandas_ta.utils import get_offset, non_zero_range, verify_series
 
 
 def stochrsi(close, length=None, rsi_length=None, k=None, d=None, mamode=None, offset=None, **kwargs):

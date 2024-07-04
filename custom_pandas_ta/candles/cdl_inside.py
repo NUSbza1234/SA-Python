@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from pandas_ta.utils import candle_color, get_offset
-from pandas_ta.utils import verify_series
+from custom_pandas_ta.utils import candle_color, get_offset
+from custom_pandas_ta.utils import verify_series
 
 
 def cdl_inside(open_, high, low, close, asbool=False, offset=None, **kwargs):

@@ -1,4 +1,4 @@
-name = "pandas_ta"
+name = "custom_pandas_ta"
 """
 .. moduleauthor:: Kevin Johnson
 """
@@ -7,7 +7,7 @@ from pathlib import Path
 from pkg_resources import get_distribution, DistributionNotFound
 
 
-_dist = get_distribution("pandas_ta")
+_dist = get_distribution("custom_pandas_ta")
 try:
     # Normalize case for Windows systems
     here = Path(_dist.location) / __file__
@@ -113,4 +113,4 @@ RATE = {
     "YEARLY": 1,
 }
 
-from pandas_ta.core import *
+from custom_pandas_ta.core import *

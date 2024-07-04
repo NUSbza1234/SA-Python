@@ -2,7 +2,7 @@
 from . import (
     dema, ema, hma, linreg, rma, sma, swma, t3, tema, trima, vidya, wma
 )
-from pandas_ta.utils import get_offset, verify_series
+from custom_pandas_ta.utils import get_offset, verify_series
 
 
 def zlma(close, length=None, mamode=None, offset=None, **kwargs):

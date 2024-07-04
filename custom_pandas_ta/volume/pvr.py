@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from pandas_ta.utils import verify_series
+from custom_pandas_ta.utils import verify_series
 from numpy import nan as npNaN
 from pandas import Series
 

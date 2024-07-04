@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from pandas_ta import Imports
-from pandas_ta.utils import get_offset, non_zero_range, verify_series
+from custom_pandas_ta import Imports
+from custom_pandas_ta.utils import get_offset, non_zero_range, verify_series
 
 
 def bop(open_, high, low, close, scalar=None, talib=None, offset=None, **kwargs):

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from .atr import atr
-from pandas_ta import Imports
-from pandas_ta.utils import get_drift, get_offset, verify_series
+from custom_pandas_ta import Imports
+from custom_pandas_ta.utils import get_drift, get_offset, verify_series
 
 
 def natr(high, low, close, length=None, scalar=None, mamode=None, talib=None, drift=None, offset=None, **kwargs):

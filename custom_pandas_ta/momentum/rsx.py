@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from numpy import nan as npNaN
 from pandas import concat, DataFrame, Series
-from pandas_ta.utils import get_drift, get_offset, verify_series, signals
+from custom_pandas_ta.utils import get_drift, get_offset, verify_series, signals
 
 
 def rsx(close, length=None, drift=None, offset=None, **kwargs):

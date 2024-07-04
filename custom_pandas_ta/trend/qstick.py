@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from pandas_ta.overlap import dema, ema, hma, rma, sma
-from pandas_ta.utils import get_offset, non_zero_range, verify_series
+from custom_pandas_ta.overlap import dema, ema, hma, rma, sma
+from custom_pandas_ta.utils import get_offset, non_zero_range, verify_series
 
 
 def qstick(open_, close, length=None, offset=None, **kwargs):

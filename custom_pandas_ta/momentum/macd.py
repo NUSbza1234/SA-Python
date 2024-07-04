@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from pandas import concat, DataFrame
-from pandas_ta import Imports
-from pandas_ta.overlap import ema
-from pandas_ta.utils import get_offset, verify_series, signals
+from custom_pandas_ta import Imports
+from custom_pandas_ta.overlap import ema
+from custom_pandas_ta.utils import get_offset, verify_series, signals
 
 
 def macd(close, fast=None, slow=None, signal=None, talib=None, offset=None, **kwargs):

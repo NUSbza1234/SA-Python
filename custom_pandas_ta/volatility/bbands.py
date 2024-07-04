@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 from pandas import DataFrame
-from pandas_ta import Imports
-from pandas_ta.overlap import ma
-from pandas_ta.statistics import stdev
-from pandas_ta.utils import get_offset, non_zero_range, tal_ma, verify_series
+from custom_pandas_ta import Imports
+from custom_pandas_ta.overlap import ma
+from custom_pandas_ta.statistics import stdev
+from custom_pandas_ta.utils import get_offset, non_zero_range, tal_ma, verify_series
 
 
 def bbands(close, length=None, std=None, ddof=0, mamode=None, talib=None, offset=None, **kwargs):

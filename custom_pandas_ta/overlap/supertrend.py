@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 from numpy import nan as npNaN
 from pandas import DataFrame
-from pandas_ta.overlap import hl2
-from pandas_ta.volatility import atr
-from pandas_ta.utils import get_offset, verify_series
+from custom_pandas_ta.overlap import hl2
+from custom_pandas_ta.volatility import atr
+from custom_pandas_ta.utils import get_offset, verify_series
 
 
 def supertrend(high, low, close, length=None, multiplier=None, offset=None, **kwargs):

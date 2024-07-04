@@ -11,18 +11,18 @@ from numpy import log10 as npLog10
 from numpy import ndarray as npNdarray
 from pandas.core.base import PandasObject
 
-from pandas_ta import Category, Imports, version
-from pandas_ta.candles.cdl_pattern import ALL_PATTERNS
-from pandas_ta.candles import *
-from pandas_ta.cycles import *
-from pandas_ta.momentum import *
-from pandas_ta.overlap import *
-from pandas_ta.performance import *
-from pandas_ta.statistics import *
-from pandas_ta.trend import *
-from pandas_ta.volatility import *
-from pandas_ta.volume import *
-from pandas_ta.utils import *
+from custom_pandas_ta import Category, Imports, version
+from custom_pandas_ta.candles.cdl_pattern import ALL_PATTERNS
+from custom_pandas_ta.candles import *
+from custom_pandas_ta.cycles import *
+from custom_pandas_ta.momentum import *
+from custom_pandas_ta.overlap import *
+from custom_pandas_ta.performance import *
+from custom_pandas_ta.statistics import *
+from custom_pandas_ta.trend import *
+from custom_pandas_ta.volatility import *
+from custom_pandas_ta.volume import *
+from custom_pandas_ta.utils import *
 
 
 df = pd.DataFrame()

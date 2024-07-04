@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from .ad import ad
-from pandas_ta import Imports
-from pandas_ta.overlap import ema
-from pandas_ta.utils import get_offset, verify_series
+from custom_pandas_ta import Imports
+from custom_pandas_ta.overlap import ema
+from custom_pandas_ta.utils import get_offset, verify_series
 
 
 def adosc(high, low, close, volume, open_=None, fast=None, slow=None, talib=None, offset=None, **kwargs):

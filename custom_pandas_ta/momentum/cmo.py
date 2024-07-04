@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from pandas_ta import Imports
-from pandas_ta.overlap import rma
-from pandas_ta.utils import get_drift, get_offset, verify_series
+from custom_pandas_ta import Imports
+from custom_pandas_ta.overlap import rma
+from custom_pandas_ta.utils import get_drift, get_offset, verify_series
 
 
 def cmo(close, length=None, scalar=None, talib=None, drift=None, offset=None, **kwargs):

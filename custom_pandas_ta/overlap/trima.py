@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from .sma import sma
-from pandas_ta import Imports
-from pandas_ta.utils import get_offset, verify_series
+from custom_pandas_ta import Imports
+from custom_pandas_ta.utils import get_offset, verify_series
 
 
 def trima(close, length=None, talib=None, offset=None, **kwargs):

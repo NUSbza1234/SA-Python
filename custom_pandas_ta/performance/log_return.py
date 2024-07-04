@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from numpy import log as nplog
-from pandas_ta.utils import get_offset, verify_series
+from custom_pandas_ta.utils import get_offset, verify_series
 
 
 def log_return(close, length=None, cumulative=None, offset=None, **kwargs):

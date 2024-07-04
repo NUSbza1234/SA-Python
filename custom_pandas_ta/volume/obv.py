@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from pandas_ta import Imports
-from pandas_ta.utils import get_offset, signed_series, verify_series
+from custom_pandas_ta import Imports
+from custom_pandas_ta.utils import get_offset, signed_series, verify_series
 
 
 def obv(close, volume, talib=None, offset=None, **kwargs):

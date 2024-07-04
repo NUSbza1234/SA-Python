@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from pandas_ta.utils import get_offset, verify_series
+from custom_pandas_ta.utils import get_offset, verify_series
 
 
 def percent_return(close, length=None, cumulative=None, offset=None, **kwargs):

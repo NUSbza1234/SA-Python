@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from pandas import DataFrame
-from pandas_ta import Imports
-from pandas_ta.overlap import ma
-from pandas_ta.utils import get_offset, verify_series, get_drift, zero
+from custom_pandas_ta import Imports
+from custom_pandas_ta.overlap import ma
+from custom_pandas_ta.utils import get_offset, verify_series, get_drift, zero
 
 
 def dm(high, low, length=None, mamode=None, talib=None, drift=None, offset=None, **kwargs):

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from pandas_ta.momentum import roc
-from pandas_ta.utils import get_drift, get_offset, verify_series
+from custom_pandas_ta.momentum import roc
+from custom_pandas_ta.utils import get_drift, get_offset, verify_series
 
 
 def pvt(close, volume, drift=None, offset=None, **kwargs):

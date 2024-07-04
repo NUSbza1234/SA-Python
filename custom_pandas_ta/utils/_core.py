@@ -6,7 +6,7 @@ from sys import float_info as sflt
 from numpy import argmax, argmin
 from pandas import DataFrame, Series
 from pandas.api.types import is_datetime64_any_dtype
-from pandas_ta import Imports
+from custom_pandas_ta import Imports
 
 
 def _camelCase2Title(x: str):
@@ -18,7 +18,7 @@ def category_files(category: str) -> list:
     """Helper function to return all filenames in the category directory."""
     files = [
         x.stem
-        for x in list(Path(f"pandas_ta/{category}/").glob("*.py"))
+        for x in list(Path(f"custom_pandas_ta/{category}/").glob("*.py"))
         if x.stem != "__init__"
     ]
     return files

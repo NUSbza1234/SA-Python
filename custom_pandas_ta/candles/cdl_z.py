@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from pandas import DataFrame
-from pandas_ta.statistics import zscore
-from pandas_ta.utils import get_offset, verify_series
+from custom_pandas_ta.statistics import zscore
+from custom_pandas_ta.utils import get_offset, verify_series
 
 
 def cdl_z(open_, high, low, close, length=None, full=None, ddof=None, offset=None, **kwargs):
