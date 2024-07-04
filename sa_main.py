@@ -2,7 +2,7 @@ import streamlit as st
 import yfinance as yf
 import pandas as pd
 import plotly.graph_objs as go
-import custom_pandas_ta as ta
+import pandas_ta as ta
 
 #nan_value = np.nan
 
