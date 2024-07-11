@@ -1,5 +1,5 @@
 streamlit==1.36.0
 yfinance==0.2.40
 pandas==2.2.2
-pandas_ta==git+https://github.com/NUSbza1234/custom_pandas_ta.git#egg=pandas_ta
+git+https://github.com/NUSbza1234/custom_pandas_ta.git#egg=pandas_ta
 plotly==5.22.0
